@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">app_todolist_practice</string>
+    <string name="main_title_app">~todo</string>
+    <string name="signin">sign in</string>
+    <string name="signup">sign up</string>
+    <string name="description_logo">logo</string>
+</resources>

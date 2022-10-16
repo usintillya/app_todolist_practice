@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mybutton_precer_signup.xml" value="0.305" />
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mybutton_precet.xml" value="0.2955" />
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mybutton_precet_signin.xml" value="0.305" />
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/layout/activity_main.xml" value="0.28351449275362317" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
