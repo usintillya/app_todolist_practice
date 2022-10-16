@@ -9,9 +9,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val actChange = findViewById<Button>(R.id.button_signin)
-        actChange.setOnClickListener {
+
+        // Redirecting to Login Activity
+        val actChangeLogin = findViewById<Button>(R.id.button_signin)
+        actChangeLogin.setOnClickListener {
             val redirect: Intent = Intent("com.example.app_todolist_practice.LoginActivity")
+            startActivity(redirect)
+        }
+
+        // Redirecting to Registration Activity
+        val actChangeRegistration = findViewById<Button>(R.id.button_signup)
+        actChangeRegistration.setOnClickListener {
+            val redirect: Intent = Intent("com.example.app_todolist_practice.RegistrationActivity")
             startActivity(redirect)
         }
     }

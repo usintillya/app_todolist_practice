@@ -10,4 +10,5 @@
     <string name="remember_me">Keep me logged</string>
     <string name="error_login">Login or password is invalid!</string>
     <string name="login">log in</string>
+    <string name="error_registration">Check the fields! Something is wrong!</string>
 </resources>

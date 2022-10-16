@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.app_todolist_practice.LoginActivity">
+    tools:context=".RegistrationActivity">
 
-    <!-- Logo -->
     <ImageView
         android:id="@+id/image_logo_main"
         android:layout_width="239dp"
@@ -18,12 +17,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Text about error occured -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/error_login"
+        android:text="@string/error_registration"
         android:textColor="@color/red_borders"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.45"
@@ -32,7 +30,6 @@
         tools:ignore="TextContrastCheck"
         android:visibility="invisible"/>
 
-    <!-- Text field login -->
     <EditText
         android:id="@+id/login_field"
         android:layout_width="200dp"
@@ -47,7 +44,6 @@
         android:inputType="text"
         android:paddingBottom="35dp"/>
 
-    <!-- Text field password -->
     <EditText
         android:id="@+id/password_field"
         android:layout_width="200dp"
@@ -62,21 +58,6 @@
         android:background="@drawable/my_field_precet"
         android:paddingBottom="35dp"/>
 
-    <!-- Checkbox remember me -->
-    <CheckBox
-        android:id="@+id/checkbox_rememberme"
-        android:layout_width="154dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/remember_me"
-        android:textColor="@color/description_for_fields"
-        android:theme="@style/MyCustomCheckbox"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_field"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
-
-    <!-- Button to the next step, there might be redirect -->
     <Button
         android:id="@+id/button_signin"
         android:layout_width="200dp"
@@ -92,7 +73,6 @@
         app:layout_constraintTop_toBottomOf="@+id/checkbox_rememberme"
         tools:ignore="TextContrastCheck" />
 
-    <!-- Powered by -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,6 +84,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_signin"
         tools:ignore="TextContrastCheck" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
