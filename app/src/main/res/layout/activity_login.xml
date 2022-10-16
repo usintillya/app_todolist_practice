@@ -17,6 +17,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/error_login"
+        android:textColor="@color/red_borders"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
+        tools:ignore="TextContrastCheck"
+        android:visibility="invisible"/>
+
     <EditText
         android:id="@+id/login_field"
         android:layout_width="200dp"
@@ -26,7 +39,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo_main" />
+        app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
+        android:background="@drawable/my_field_precet"
+        android:inputType="text"
+        android:paddingBottom="35dp"/>
 
     <EditText
         android:id="@+id/password_field"
@@ -38,27 +54,42 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_field"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:background="@drawable/my_field_precet"
+        android:paddingBottom="35dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_rememberme"
+        android:layout_width="154dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/remember_me"
+        android:textColor="@color/description_for_fields"
+        android:theme="@style/MyCustomCheckbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_field"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/button_signin"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/mybutton_precet_signin"
-        android:text="@string/signin"
+        android:text="@string/login"
         android:textColor="@color/main_color"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_rememberme"
         tools:ignore="TextContrastCheck" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:text="@string/powered_by"
         android:textColor="@color/description_for_fields"
         app:layout_constraintEnd_toEndOf="parent"

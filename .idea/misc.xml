@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/my_field_precet.xml" value="0.326" />
         <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mybutton_precer_signup.xml" value="0.305" />
         <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mybutton_precet.xml" value="0.2955" />
         <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mybutton_precet_signin.xml" value="0.305" />
-        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/drawable/mychebox_precet.xml" value="0.326" />
+        <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/Valeronn/AndroidStudioProjects/app_todolist_practice/app/src/main/res/layout/activity_main.xml" value="0.28351449275362317" />
       </map>
     </option>
