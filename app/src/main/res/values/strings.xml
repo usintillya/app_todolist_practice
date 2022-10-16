@@ -5,4 +5,6 @@
     <string name="signup">sign up</string>
     <string name="description_logo">logo</string>
     <string name="powered_by">powered by usintillya</string>
+    <string name="login_filed">Login</string>
+    <string name="password_filed">Password</string>
 </resources>
