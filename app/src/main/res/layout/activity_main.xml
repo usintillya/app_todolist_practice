@@ -46,5 +46,15 @@
         app:layout_constraintTop_toBottomOf="@+id/button_signin"
         android:textSize="20sp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/powered_by"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_signup"
+        android:textColor="@color/description_for_fields"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
