@@ -19,10 +19,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Text about error occured -->
-
-    <!-- Text field Create a username -->
-
-    <!-- Text field Email -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
         tools:ignore="TextContrastCheck" />
 
+    <!-- Text field Login -->
     <EditText
         android:id="@+id/login_field"
         android:layout_width="200dp"
@@ -50,11 +47,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_logo_main" />
 
-    <!-- Text field Create a password -->
 
-    <!-- Button to the next step, there might be redirect -->
-
-    <!-- Powered by -->
+    <!-- Text field Email -->
     <EditText
         android:id="@+id/email_field"
         android:layout_width="200dp"
@@ -69,6 +63,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_field" />
 
+    <!-- Text field Password -->
     <EditText
         android:id="@+id/password_field"
         android:layout_width="200dp"
@@ -83,6 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_field" />
 
+    <!-- Button to the next step, there might be a redirect -->
     <Button
         android:id="@+id/button_signin"
         android:layout_width="200dp"
@@ -98,6 +94,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password_field"
         tools:ignore="TextContrastCheck" />
 
+    <!-- Powered by -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
