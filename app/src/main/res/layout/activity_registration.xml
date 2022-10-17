@@ -19,42 +19,61 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Text about error occured -->
+
+    <!-- Text field Create a username -->
+
+    <!-- Text field Email -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:text="@string/error_registration"
         android:textColor="@color/red_borders"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
         tools:ignore="TextContrastCheck" />
 
-    <!-- Text field Create a username -->
     <EditText
         android:id="@+id/login_field"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/my_field_precet"
         android:hint="@string/login_filed"
+        android:inputType="text"
+        android:paddingBottom="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
-        android:background="@drawable/my_field_precet"
-        android:inputType="text"
-        android:paddingBottom="35dp"/>
-
-    <!-- Text field Email -->
-
+        app:layout_constraintTop_toBottomOf="@+id/image_logo_main" />
 
     <!-- Text field Create a password -->
+
+    <!-- Button to the next step, there might be redirect -->
+
+    <!-- Powered by -->
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/my_field_precet"
+        android:hint="@string/email_filed"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_field" />
+
     <EditText
         android:id="@+id/password_field"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/my_field_precet"
         android:hint="@string/password_filed"
         android:inputType="textPassword"
@@ -62,17 +81,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_field" />
+        app:layout_constraintTop_toBottomOf="@+id/email_field" />
 
-    <!-- Button to the next step, there might be redirect -->
     <Button
         android:id="@+id/button_signin"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/mybutton_precet_signup"
-        android:text="@string/login"
-        android:textColor="@color/main_color"
+        android:text="@string/registrate"
+        android:textColor="@color/blue_borders"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -80,7 +98,6 @@
         app:layout_constraintTop_toBottomOf="@+id/password_field"
         tools:ignore="TextContrastCheck" />
 
-    <!-- Powered by -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
