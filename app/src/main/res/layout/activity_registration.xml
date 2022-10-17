@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity">
 
+    <!-- Logo -->
     <ImageView
         android:id="@+id/image_logo_main"
         android:layout_width="239dp"
@@ -17,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Text about error occured -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,6 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/image_logo_main"
         tools:ignore="TextContrastCheck" />
 
+    <!-- Text field Create a username -->
     <EditText
         android:id="@+id/login_field"
         android:layout_width="200dp"
@@ -43,6 +46,10 @@
         android:inputType="text"
         android:paddingBottom="35dp"/>
 
+    <!-- Text field Email -->
+
+
+    <!-- Text field Create a password -->
     <EditText
         android:id="@+id/password_field"
         android:layout_width="200dp"
@@ -57,12 +64,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_field" />
 
+    <!-- Button to the next step, there might be redirect -->
     <Button
         android:id="@+id/button_signin"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="64dp"
-        android:background="@drawable/mybutton_precet_signin"
+        android:background="@drawable/mybutton_precet_signup"
         android:text="@string/login"
         android:textColor="@color/main_color"
         android:textSize="20sp"
@@ -72,6 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password_field"
         tools:ignore="TextContrastCheck" />
 
+    <!-- Powered by -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
