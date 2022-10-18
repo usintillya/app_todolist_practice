@@ -78,7 +78,7 @@
 
     <!-- Button to the next step, there might be redirect -->
     <Button
-        android:id="@+id/button_signin"
+        android:id="@+id/button_nextstep"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="36dp"
@@ -102,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_signin"
+        app:layout_constraintTop_toBottomOf="@+id/button_nextstep"
         tools:ignore="TextContrastCheck" />
 
 
