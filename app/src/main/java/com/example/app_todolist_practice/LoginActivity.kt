@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         // Redirecting to MainScreen activity after Login
         val actChangeToMainScreen = findViewById<Button>(R.id.button_nextstep)
         actChangeToMainScreen.setOnClickListener {
-            val redirect: Intent = Intent("com.example.app_todolist_practice.RegistrationActivity")
+            val redirect: Intent = Intent("com.example.app_todolist_practice.MainScreenActivity")
             startActivity(redirect)
         }
     }

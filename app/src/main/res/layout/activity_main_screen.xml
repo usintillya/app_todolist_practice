@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreenActivity">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/image_logo_main"
+        android:layout_width="239dp"
+        android:layout_height="172dp"
+        android:contentDescription="@string/description_logo"
+        android:src="@drawable/_todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button to the next step, there might be redirect -->
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/mybutton_precet_addtodo"
+        android:src="@drawable/_plus"
+        android:textColor="@color/main_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toEndOf="@+id/image_logo_main"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitCenter"
+        android:padding="10dp"/>
+
+    <!-- Powered by -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="756dp"
+        android:text="@string/powered_by"
+        android:textColor="@color/description_for_fields"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
