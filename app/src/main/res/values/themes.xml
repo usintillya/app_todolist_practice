@@ -17,4 +17,16 @@
         <item name="colorControlNormal">@color/blue_borders</item>
         <item name="colorControlActivated">@color/blue_fill</item>
     </style>
+    <style name="MyCustomCheckboxHigh" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/red_borders</item>
+        <item name="colorControlActivated">@color/red_fill</item>
+    </style>
+    <style name="MyCustomCheckboxMedium" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/yellow_borders</item>
+        <item name="colorControlActivated">@color/yellow_fill</item>
+    </style>
+    <style name="MyCustomCheckboxEasy" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/green_borders</item>
+        <item name="colorControlActivated">@color/green_fill</item>
+    </style>
 </resources>

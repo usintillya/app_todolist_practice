@@ -6,12 +6,14 @@
 
 
     <!-- buttons text -->
+    <string name="add_todo_text">SAVE</string>
     <string name="signin">sign in</string>
     <string name="signup">sign up</string>
     <string name="registrate">Continue</string>
     <string name="login">log in</string>
 
     <!-- fields -->
+    <string name="todo_add">Write your todo</string>
     <string name="login_filed">Login</string>
     <string name="password_filed">Password</string>
     <string name="remember_me">Keep me logged</string>
@@ -21,7 +23,13 @@
     <string name="make_password_field">Make a password</string>
 
     <!-- text sources -->
+    <string name="create_todo">Create your Todo</string>
+    <string name="pick">Priority</string>
+    <string name="error_add_todo">You can pick only one priority</string>
     <string name="powered_by">powered by usintillya</string>
     <string name="description_logo">logo</string>
     <string name="error_registration">Check the fields! Something is wrong!</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="easy">Easy</string>
 </resources>
