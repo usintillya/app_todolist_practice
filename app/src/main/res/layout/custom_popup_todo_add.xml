@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="10dp"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView"
@@ -94,27 +95,26 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="@string/error_add_todo"
         android:textColor="@color/red_borders"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_todo_field"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/add_todo_button"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/mybutton_precet_signin"
         android:text="@string/add_todo_text"
         android:textColor="@color/main_color"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/add_todo_field"
         tools:ignore="TextContrastCheck" />

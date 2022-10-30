@@ -13,20 +13,32 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Custom styles -->
+
+    <!-- Checkbox Blue -->
     <style name="MyCustomCheckbox" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">@color/blue_borders</item>
-        <item name="colorControlActivated">@color/blue_fill</item>
+        <item name="colorControlActivated">@color/blue_borders</item>
     </style>
+    <!-- Checkbox Red -->
     <style name="MyCustomCheckboxHigh" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">@color/red_borders</item>
-        <item name="colorControlActivated">@color/red_fill</item>
+        <item name="colorControlActivated">@color/red_borders</item>
     </style>
+    <!-- Checkbox Yellow -->
     <style name="MyCustomCheckboxMedium" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">@color/yellow_borders</item>
-        <item name="colorControlActivated">@color/yellow_fill</item>
+        <item name="colorControlActivated">@color/yellow_borders</item>
     </style>
+    <!-- Checkbox Green -->
     <style name="MyCustomCheckboxEasy" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">@color/green_borders</item>
-        <item name="colorControlActivated">@color/green_fill</item>
+        <item name="colorControlActivated">@color/green_borders</item>
+    </style>
+    <!-- Dialog Corners -->
+    <style name="RoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="backgroundColor">@color/white</item>
     </style>
 </resources>
