@@ -24,6 +24,12 @@ class MainScreenActivity : AppCompatActivity() {
                 .setView(mDialogView)
             //Show dialog
             val mAlertDialog = mBuilder.show()
+            //Implementing a saveButton from Dialog (custom_popup)
+            val saveBtn = mDialogView.findViewById<Button>(R.id.saveTodoBtn)
+            //Onclick saveButton events
+            saveBtn.setOnClickListener {
+                mAlertDialog.dismiss()
+            }
         }
     }
 }
